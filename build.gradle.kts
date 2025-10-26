@@ -21,6 +21,7 @@ dependencies {
 java {
   withSourcesJar()
   withJavadocJar()
+  toolchain.languageVersion = JavaLanguageVersion.of(21)
 }
 
 publishing {
