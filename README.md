@@ -10,7 +10,7 @@ For the original repository, see https://github.com/Mojang/brigadier.
 ## Gradle
 ```kts
 repositories {
-  maven("https://eldonexus.de/repositories/maven-public/")
+  maven("https://eldonexus.de/repositories/maven-releases/")
 }
 
 dependencies {
