@@ -42,7 +42,6 @@ publishing {
   publications {
     create<MavenPublication>("EldoNexus") {
       from(components["java"])
-      withBuildIdentifier()
     }
   }
 }
