@@ -14,6 +14,6 @@ repositories {
 }
 
 dependencies {
-  api("net.strokkur:brigadier:1.3.0")
+  api("net.strokkur:brigadier:1.4.0")
 }
 ```
