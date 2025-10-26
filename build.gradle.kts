@@ -40,7 +40,7 @@ publishing {
   }
 
   publications {
-    create<MavenPublication>("eldonexus") {
+    create<MavenPublication>("EldoNexus") {
       from(components["java"])
       withBuildIdentifier()
     }
